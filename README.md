@@ -81,3 +81,5 @@ We strongly encourage you to use a blacklist file, to exclude both reserved/unal
 If you find yourself specifying certain settings, such as your maximum bandwidth or blacklist file every time you run ZMap, you can specify these in /etc/zmap/zmap.conf or use a custom configuration file.
 
 If you are attempting to troubleshoot scan related issues, there are several options to help debug. First, it is possible can perform a dry run scan in order to see the packets that would be sent over the network by adding the --dryrun flag. As well, it is possible to change the logging verbosity by setting the --verbosity=n flag.
+
+
